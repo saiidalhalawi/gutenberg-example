@@ -1,5 +1,5 @@
 <post>
-  <section class="u-letter-box--super page-break-before">
+  <section class="u-letter-box--super page-break-after">
     <div class="o-grid o-grid--xsmall-full o-grid--small-full o-grid--medium-full">
       <div class="o-grid__cell o-grid__cell--width-40 u-centered" style="margin: auto;">
         <img class="o-image" src="https://unsplash.it/500/300/?image=961">
