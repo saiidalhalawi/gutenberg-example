@@ -1,6 +1,6 @@
 # gutenberg-example
 
-Example for Gutenberg css
+Example for [Gutenberg css](https://github.com/BafS/Gutenberg)
 
 # Usage
 
