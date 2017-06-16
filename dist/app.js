@@ -2981,7 +2981,7 @@ var riot = __webpack_require__(0
 
 var riot = __webpack_require__(0
 //src: src/tags/blog/post.tag
-);riot.tag2('post', '<section class="u-letter-box--super"> <div class="o-grid o-grid--xsmall-full o-grid--small-full o-grid--medium-full"> <div class="o-grid__cell o-grid__cell--width-40 u-centered"> <img class="o-image" src="https://unsplash.it/500/300/?image=961"> </div> <div class="o-grid__cell o-grid__cell--width-60"> <h3 class="c-heading c-heading--medium"> {post.title} <span class="c-heading__sub">2017/06/17</span> </h3> <p class="c-paragraph">{post.content}</p> <button class="c-button c-button--ghost-success">Read More...</button> </div> </div> </section>', '', '', function (opts) {
+);riot.tag2('post', '<section class="u-letter-box--super page-break-before"> <div class="o-grid o-grid--xsmall-full o-grid--small-full o-grid--medium-full"> <div class="o-grid__cell o-grid__cell--width-40 u-centered" style="margin: auto;"> <img class="o-image" src="https://unsplash.it/500/300/?image=961"> </div> <div class="o-grid__cell o-grid__cell--width-60"> <h3 class="c-heading c-heading--medium"> {post.title} <span class="c-heading__sub">2017/06/17</span> </h3> <p class="c-paragraph"> <span class="c-badge c-badge--brand">tag-1</span> <span class="c-badge c-badge--brand">tag-2</span> </p> <p class="c-paragraph">{post.content}</p> <button class="c-button c-button--ghost-success no-print">Read More...</button> </div> </div> </section>', '', '', function (opts) {
     var post = this.post;
 });
 
@@ -3031,7 +3031,7 @@ var riot = __webpack_require__(0
 
 var riot = __webpack_require__(0
 //src: src/tags/shared/navbar.tag
-);riot.tag2('navbar', '<header class="u-letter-box--medium"> <ul class="c-nav c-nav--inline u-highest"> <li class="c-nav__item">Home</li> <li class="c-nav__item">News</li> <li class="c-nav__item c-nav__item--right">Contact</li> </ul> </header>', '', '', function (opts) {});
+);riot.tag2('navbar', '<header class="u-letter-box--medium no-print"> <ul class="c-nav c-nav--inline u-highest"> <li class="c-nav__item">Home</li> <li class="c-nav__item">News</li> <li class="c-nav__item c-nav__item--right">Contact</li> </ul> </header>', '', '', function (opts) {});
 
 /***/ }),
 /* 6 */
