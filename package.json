@@ -1,0 +1,35 @@
+{
+  "name": "gutenberg-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd dist && http-server",
+    "build": "webpack --config webpack.config.js -w"
+  },
+  "author": "k.kanno",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "blaze": "^3.2.2",
+    "chart.js": "^2.6.0",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "gutenberg-css": "^0.4.2",
+    "html-webpack-cdn-plugin": "^0.2.0",
+    "html-webpack-plugin": "^2.28.0",
+    "http-server": "^0.10.0",
+    "riot": "^3.6.0",
+    "riot-router": "^0.9.7",
+    "riot-tag-loader": "^1.0.0",
+    "riotgear": "^3.5.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.6.1",
+    "webpack-cdn-plugin": "^1.3.4"
+  }
+}
